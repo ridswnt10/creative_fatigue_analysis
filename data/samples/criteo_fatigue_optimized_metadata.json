@@ -1,0 +1,27 @@
+{
+  "sample_date": "2025-12-08T14:13:08.429620",
+  "sampling_strategy": "fatigue_optimized",
+  "original_size": 16468027,
+  "sample_size": 500000,
+  "target_multi_exp_ratio": 0.5,
+  "actual_multi_exp_ratio": 0.503762,
+  "original_multi_exp_users": 2545854,
+  "sample_multi_exp_users": 51353,
+  "original_multi_exp_pct": 41.44819102297267,
+  "sample_multi_exp_pct": 17.266910328270686,
+  "original_click_rate": 0.3611582006757701,
+  "sample_click_rate": 0.333432,
+  "random_seed": 42,
+  "exposure_distribution": {
+    "1": 246054,
+    "2": 22600,
+    "3": 10334,
+    "4": 5640,
+    "5": 3507,
+    "6": 2300,
+    "7": 1543,
+    "8": 1109,
+    "9": 875,
+    "10": 617
+  }
+}

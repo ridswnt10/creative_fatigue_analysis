@@ -11,17 +11,18 @@ ENV/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Data files (large datasets - must be downloaded separately)
+# Raw data files (large - must be downloaded separately)
 data/raw/*.gz
 data/raw/*.csv
 data/raw/*.tsv
-data/processed/*.csv
-data/samples/*.csv
-data/samples/*.json
 !data/raw/.gitkeep
 !data/raw/README.md
-!data/processed/.gitkeep
-!data/samples/.gitkeep
+
+# Processed and sample data are INCLUDED for reproducibility
+# (uncomment below to exclude if files become too large)
+# data/processed/*.csv
+# data/samples/*.csv
+# data/samples/*.json
 
 # Model artifacts (large files)
 results/models/*.pkl

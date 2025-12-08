@@ -195,9 +195,9 @@ def save_optimized_sample(
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
     
-    # Save sample
-    sample_file = output_path / f"{sample_name}.csv"
-    sample.to_csv(sample_file, index=False)
+    # Save sample (gzipped for smaller size)
+    sample_file = output_path / f"{sample_name}.csv.gz"
+    sample.to_csv(sample_file, index=False, compression='gzip')
     print(f"Sample saved to {sample_file}")
     
     # Save metadata
