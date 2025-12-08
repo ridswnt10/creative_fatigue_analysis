@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 ridswnt10
+Copyright (c) 2024
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,16 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+DATA LICENSE NOTICE
+
+The Criteo Attribution Dataset used in this project is subject to Criteo's 
+Research Data License. The dataset is released for academic and research 
+purposes only and may not be used for commercial purposes without explicit 
+permission from Criteo.
+
+For more information about the data license, visit:
+http://ailab.criteo.com/criteo-attribution-modeling-bidding-dataset/
+

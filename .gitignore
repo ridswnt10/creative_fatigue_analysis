@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files (large datasets - must be downloaded separately)
+data/raw/*.gz
+data/raw/*.csv
+data/raw/*.tsv
+data/processed/*.csv
+data/samples/*.csv
+data/samples/*.json
+!data/raw/.gitkeep
+!data/raw/README.md
+!data/processed/.gitkeep
+!data/samples/.gitkeep
+
+# Model artifacts (large files)
+results/models/*.pkl
+results/models/*.joblib
+!results/models/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PDFs in pdfs/ folder (local generated, can be regenerated)
+pdfs/
+# Note: notebook_pdfs/ is included for easy viewing on GitHub
+
+# OS
+.DS_Store
+Thumbs.db
+
